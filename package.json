@@ -1,7 +1,6 @@
 {
-  "name": "my-editor",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@soosap/my-editor",
+  "version": "0.3.0",
   "dependencies": {
     "@lexical/react": "^0.8.1",
     "@testing-library/jest-dom": "^5.16.5",
@@ -20,7 +19,8 @@
   },
   "scripts": {
     "build": "npm run rollup",
-    "rollup": "rimraf dist && rollup -c --bundleConfigAsCjs"
+    "rollup": "rimraf dist && rollup -c --bundleConfigAsCjs",
+    "publish": "npm publish --access public"
   },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -56,5 +56,15 @@
     "rollup-plugin-dts": "^5.0.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soosap/my-editor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soosap/my-editor/issues"
+  },
+  "homepage": "https://github.com/soosap/my-editor#readme"
 }
