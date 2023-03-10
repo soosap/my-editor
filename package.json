@@ -1,6 +1,6 @@
 {
   "name": "@soosap/my-editor",
-  "version": "0.4.0",
+  "version": "0.4.3",
   "dependencies": {
     "@lexical/react": "^0.9.0",
     "@testing-library/jest-dom": "^5.16.5",
@@ -16,6 +16,11 @@
     "react-scripts": "5.0.1",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
+  },
+  "peerDependencies": {
+    "@lexical/react": "^0.9.0",
+    "lexical": "^0.9.0",
+    "react": "^18.2.0"
   },
   "scripts": {
     "build": "npm run rollup",
